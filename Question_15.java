@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 /* Write a function to check if string is palindrome. The Function should 
 return True or False. You may use built-in functions, if required*/
-class palindrome
-{
-	 void fun()
+public class Question_15 
+	{
+
+	 void palindrome()
 	{
 		String str2="";
 		System.out.println("Enter word to check for palindrome ");
@@ -23,14 +24,11 @@ class palindrome
 			System.out.println("False");
 		
 	}
-}
-public class Question_15 
-	{
 	public static void main(String[]args)
 	{	
 		System.out.println("Developer: D4_Pratik_Satpute_62758");
-		palindrome pal = new palindrome();
-		pal.fun();
+		Question_15 pal = new Question_15();
+		pal.palindrome();
 	}
 	}
 	
